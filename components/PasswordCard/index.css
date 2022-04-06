@@ -1,0 +1,55 @@
+.li-style {
+  list-style-type: none;
+  border-radius: 8px;
+  border: 1px solid #94a3b8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 270px;
+  height: 110px;
+  margin: 15px;
+  padding-bottom: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.initial-div {
+  width: 40px;
+  margin-left: 10px;
+}
+.initial {
+  background-color: aqua;
+  text-align: center;
+  border-radius: 50px;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.details-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 150px;
+  line-height: 5px;
+}
+.website {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.btn-img {
+  width: 30px;
+}
+.stars {
+  width: 150px;
+}
